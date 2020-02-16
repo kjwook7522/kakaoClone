@@ -5,7 +5,27 @@ body {
   background-color: #fcfcfc;
 }
 
-.warning-page {
+#tab .tab-menu {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  background-color: #f9f5ec;
+  text-align: center;
+}
+
+#tab .tab-menu .tab-icon {
+  flex: 1 1;
+}
+
+#tab .tab-menu .tab-icon a{
+  color: #28222a;
+}
+
+#warning .warning-page {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -15,16 +35,16 @@ body {
   background-color: #f7e600;
 }
 
-.warning-page p {
+#warning .warning-page p {
   height: 30px;
   font-size: 28px;
   color: #fff;
 }
 
 .show {
-  display: flex;
+  display: flex!important;
 }
 
 .hide {
-  display: none;;
+  display: none!important;
 }
