@@ -54,6 +54,7 @@ body {
   top: 30px;
   display: flex;
   background-color: #28222a;
+  box-shadow: 0 2px 5px;
 }
 
 #title .title-bar .title-header {
@@ -85,6 +86,126 @@ body {
   margin: 0 10px;
 }
 
+/* content */
+
+#content {
+  margin-top: 100px;
+}
+
+#content .profile {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+#content .profile .profile-img {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content .profile .profile-img img {
+  width: 100px;
+  height: auto;
+  border-radius: 35px;
+}
+
+#content .profile .profile-status {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content .profile .profile-status h1 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #1f1d1d;
+}
+
+#content .profile .profile-status h2 {
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #919098;
+}
+
+#content .plus {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+#content .plus .plus-img {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content .plus .plus-img img {
+  width: 100px;
+  height: auto;
+  border-radius: 35px;
+}
+
+#content .plus .plus-status {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content .plus .plus-status h1 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #1f1d1d;
+}
+
+#content .friends {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+#content .friends .friends-img {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content .friends .friends-img img {
+  width: 100px;
+  height: auto;
+  border-radius: 35px;
+}
+
+#content .friends .friends-status {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content .friends .friends-status h1 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #1f1d1d;
+}
+
+#content .friends .friends-status h2 {
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #919098;
+}
+
+#content h3 {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #919098;
+}
+
 /* tab menu */
 
 #tab .tab-menu {
@@ -113,6 +234,8 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
+  top: 0;
+  left: 0;
   display: none;
   justify-content: center;
   align-items: center;
