@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #content {
   margin-top: 100px;
+  margin-bottom: 60px;
 }
 
 #content .profile {
@@ -148,7 +149,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #content .plus .plus-img img {
-  width: 100px;
+  width: 85px;
   height: auto;
   border-radius: 35px;
 }
@@ -162,7 +163,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #content .plus .plus-status h1 {
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 18px;
   color: #1f1d1d;
 }
 
@@ -180,7 +181,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #content .friends .friends-img img {
-  width: 100px;
+  width: 85px;
   height: auto;
   border-radius: 35px;
 }
@@ -194,14 +195,67 @@ h1, h2, h3, h4, h5, h6, p {
 
 #content .friends .friends-status h1 {
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 18px;
   color: #1f1d1d;
 }
 
 #content .friends .friends-status h2 {
   margin-bottom: 5px;
+  font-size: 11px;
+  color: #919098;
+}
+
+#content .chats {
+  width: 100%;
+  display: flex;
+}
+
+#content .chats:hover {
+  background-color: #FFFCF9;
+}
+
+#content .chats .chats-img {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content .chats .chats-img img {
+  width: 85px;
+  height: auto;
+  border-radius: 35px;
+}
+
+#content .chats .chats-status {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content .chats .chats-status h1 {
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: #1f1d1d;
+}
+
+#content .chats .chats-status h2 {
+  margin-bottom: 5px;
   font-size: 13px;
   color: #919098;
+}
+
+#content .chats .chats-date {
+  padding: 10px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content .chats .chats-date h3 {
+  font-size: 12px;
 }
 
 #content h3 {
