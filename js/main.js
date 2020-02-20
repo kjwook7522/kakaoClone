@@ -1,5 +1,6 @@
 const warningPage = document.querySelector(".warning-page");
 const clock = document.querySelector(".clock p");
+const batteryPer = document.querySelector(".status #battery");
 
 function paintWarningPage(width) {
   if (width > 700) {
@@ -16,6 +17,12 @@ function paintClock() {
   clock.innerText = `${hours}:${minutes}`;
 }
 
+function paintBattery() {
+  navigator.getBattery().then(function(battery) {
+    batteryPer.innerText = `${battery.level * 100}%`;
+  });
+}
+
 function onChangeWindowSize(event) {
   const windowWidth = event.target.innerWidth;
   paintWarningPage(windowWidth);
@@ -24,6 +31,7 @@ function onChangeWindowSize(event) {
 function init() {
   window.addEventListener("resize", onChangeWindowSize);
   paintWarningPage(window.innerWidth);
+  paintBattery();
   setInterval(paintClock, 1000);
 }
 
