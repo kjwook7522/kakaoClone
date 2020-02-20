@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   color: #fff;
   font-size: 0.9em;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 /* content */
@@ -178,6 +179,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   border-radius: 5px;
   background-color: #ededed;
   color: #1f1d1d;
+  cursor: pointer;
 }
 
 #content .plus .plus-status h1 {
@@ -291,6 +293,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   margin-bottom: 10px;
   font-size: 0.9em;
   color: #28222a;
+  cursor: pointer;
 }
 
 #content .find-menu-icon span {
@@ -352,6 +355,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   display: block;
   margin-bottom: 10px;
   color: #28222a;
+  cursor: pointer;
 }
 
 #content .more-menu-icon span {
@@ -385,6 +389,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   border-radius: 15px;
   background-color: #f7e600;
   color: #fff;
+  cursor: pointer;
 }
 
 #content .suggestions-icon span {
