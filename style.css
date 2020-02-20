@@ -418,11 +418,22 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 #tab .tab-menu .tab-icon {
+  position: relative;
   flex: 1 1;
 }
 
 #tab .tab-menu .tab-icon a{
   color: #28222a;
+}
+
+#tab .tab-menu .tab-icon a span {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 75px;
+  border-radius: 10px;
+  background-color: #fa163f;
+  color: #fff;
 }
 
 /* warning page */
