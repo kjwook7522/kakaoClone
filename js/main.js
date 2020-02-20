@@ -1,4 +1,5 @@
 const warningPage = document.querySelector(".warning-page");
+const clock = document.querySelector(".clock p");
 
 function paintWarningPage(width) {
   if (width > 700) {
@@ -6,6 +7,13 @@ function paintWarningPage(width) {
   } else {
     warningPage.classList.remove("show");
   }
+}
+
+function paintClock() {
+  const date = new Date();
+  const hours = date.getHours();
+  const minutes = date.getMinutes();
+  clock.innerText = `${hours}:${minutes}`;
 }
 
 function onChangeWindowSize(event) {
@@ -16,6 +24,7 @@ function onChangeWindowSize(event) {
 function init() {
   window.addEventListener("resize", onChangeWindowSize);
   paintWarningPage(window.innerWidth);
+  setInterval(paintClock, 1000);
 }
 
 init();
