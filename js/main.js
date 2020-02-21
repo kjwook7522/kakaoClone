@@ -31,6 +31,7 @@ function onChangeWindowSize(event) {
 function init() {
   window.addEventListener("resize", onChangeWindowSize);
   paintWarningPage(window.innerWidth);
+  paintClock();
   setInterval(paintClock, 1000);
   paintBattery();
   
