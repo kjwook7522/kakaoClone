@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   width: 20px;
   height: 20px;
   position: absolute;
-  left: 75px;
+  left: 50%;
   border-radius: 10px;
   background-color: #fa163f;
   color: #fff;
