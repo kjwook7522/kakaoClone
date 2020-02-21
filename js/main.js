@@ -12,8 +12,14 @@ function paintWarningPage(width) {
 
 function paintClock() {
   const date = new Date();
-  const hours = date.getHours();
-  const minutes = date.getMinutes();
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  if (hours < 10) {
+    hours = "0" + hours;
+  }
+  if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
   clock.innerText = `${hours}:${minutes}`;
 }
 
@@ -34,7 +40,6 @@ function init() {
   paintClock();
   setInterval(paintClock, 1000);
   paintBattery();
-  
 }
 
 init();
