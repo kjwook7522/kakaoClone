@@ -3,8 +3,6 @@ const plusIcon = document.querySelector(".submit-plus a");
 const submitIcon = document.querySelector(".submit-icon a");
 const chats = document.querySelectorAll(".chats");
 
-console.log(plusIcon);
-
 function warning_massage() {
   alert("Sorry. This fuction is not yet ready.")
 }
