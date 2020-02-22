@@ -464,7 +464,7 @@ input {
 
 #chat .chats-contents .chats-talk-you .chats-text {
   width: 60%;
-  padding: 10px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -491,7 +491,8 @@ input {
 
 #chat .chats-contents .chats-talk-me .chats-text {
   width: 60%;
-  padding: 10px 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
