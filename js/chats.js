@@ -18,7 +18,7 @@ function enterChat(order) {
 function createDate() {
   const date = new Date();
   let month = new Intl.DateTimeFormat('en-US',  {month: 'long'}).format(date)
-  let day = date.getDay();
+  let day = date.getDate();
   let hours = date.getHours();
   let minutes = date.getMinutes();
   
@@ -54,6 +54,7 @@ function submitMessage(event) {
     saveTalk(text);
   }
   submitInput.value = "";
+  submitInput.focus();
 }
 
 function saveTalk(text) {
@@ -61,7 +62,7 @@ function saveTalk(text) {
   const date = new Date();
   
   talkObj.month = date.getMonth() + 1;
-  talkObj.day = date.getDay();
+  talkObj.day = date.getDate();
   talkObj.hours = date.getHours();
   talkObj.minutes = date.getMinutes();
   talkObj.text = text;
