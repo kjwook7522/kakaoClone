@@ -40,11 +40,16 @@ root 디렉토리에 있는 index.html을 브라우저로 실행한다.
 
 
 ## 데모
+
+### 메뉴화면
 <div>
-  <img width="300" alt="스크린샷 2020-11-19 오후 5 33 20" src="https://user-images.githubusercontent.com/29251371/99642024-5e416a00-2a8e-11eb-9e98-525077fae8fe.png">
-  <img width="300" alt="스크린샷 2020-11-19 오후 5 33 29" src="https://user-images.githubusercontent.com/29251371/99642050-66010e80-2a8e-11eb-9b07-041211da1f9a.png">
-  <img width="300" alt="스크린샷 2020-11-19 오후 5 33 31" src="https://user-images.githubusercontent.com/29251371/99642056-67323b80-2a8e-11eb-8eac-c59de6293588.png">
-  <img width="300" alt="스크린샷 2020-11-19 오후 5 33 34" src="https://user-images.githubusercontent.com/29251371/99642058-67cad200-2a8e-11eb-8e7e-eaac35cf6b18.png">
+  <img width="45%" alt="스크린샷 2020-11-19 오후 5 33 20" src="https://user-images.githubusercontent.com/29251371/99642024-5e416a00-2a8e-11eb-9e98-525077fae8fe.png">
+  <img width="45%" alt="스크린샷 2020-11-19 오후 5 33 29" src="https://user-images.githubusercontent.com/29251371/99642050-66010e80-2a8e-11eb-9b07-041211da1f9a.png">
+  <img width="45%" alt="스크린샷 2020-11-19 오후 5 33 31" src="https://user-images.githubusercontent.com/29251371/99642056-67323b80-2a8e-11eb-8eac-c59de6293588.png">
+  <img width="45%" alt="스크린샷 2020-11-19 오후 5 33 34" src="https://user-images.githubusercontent.com/29251371/99642058-67cad200-2a8e-11eb-8e7e-eaac35cf6b18.png">
 </div>
 
-
+### 채팅 화면
+<div>
+  <img width="45%" alt="스크린샷 2020-11-19 오후 5 33 56" src="https://user-images.githubusercontent.com/29251371/99642391-cd1ec300-2a8e-11eb-8d16-b9e5376716d2.png">
+ </div>
